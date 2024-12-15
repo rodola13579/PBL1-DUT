@@ -152,7 +152,7 @@ class Tauthuyen{
 		
 };
 
-
+//read file method
 void Tauthuyen::doc_file(ifstream& fs){
 			getline(fs,nation,',');
 			fs.ignore(1);
